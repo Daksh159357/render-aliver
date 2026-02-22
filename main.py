@@ -9,7 +9,7 @@ import sys
 app = Flask(__name__)
 
 DB_NAME = "sites.db"
-PING_INTERVAL = 900  # 15 minutes
+PING_INTERVAL = 800  # 15 minutes
 
 
 # ---------- DATABASE ----------
